@@ -1,0 +1,49 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "locks-and-keys:block/end_portal_lock"
+      }
+    },
+    {
+      "apply": {
+        "model": "locks-and-keys:block/end_portal_lock_nether_star"
+      },
+      "when": {
+        "has_nether_star": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "locks-and-keys:block/end_portal_lock_elder_guardian_eye"
+      },
+      "when": {
+        "has_elder_guardian_eye": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "locks-and-keys:block/end_portal_lock_echo_shard"
+      },
+      "when": {
+        "has_echo_shard": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "locks-and-keys:block/end_portal_lock_pillager_banner"
+      },
+      "when": {
+        "has_pillager_banner": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "locks-and-keys:block/end_portal_lock_totem_of_undying"
+      },
+      "when": {
+        "has_totem_of_undying": "true"
+      }
+    }
+  ]
+}

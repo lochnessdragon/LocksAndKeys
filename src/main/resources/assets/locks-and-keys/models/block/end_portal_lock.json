@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "locks-and-keys:block/end_portal_lock_bottom",
+    "side": "locks-and-keys:block/end_portal_lock_side",
+    "top": "locks-and-keys:block/end_portal_lock_top"
+  }
+}

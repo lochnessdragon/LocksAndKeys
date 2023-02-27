@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "locks-and-keys",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Locks And Keys",
+  "description": "Forces players to kill/survive the Wither, Warden, Elder Guardian, Raids, and Evoker in order to unlock the end",
   "authors": [
     "Me!"
   ],
@@ -13,21 +13,21 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.github.lochnessdragon.locks_and_keys.LocksAndKeys"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "locks_and_keys.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.11",
+    "fabricloader": ">=0.14.14",
     "fabric-api": "*",
     "minecraft": "~1.19.3",
     "java": ">=17"

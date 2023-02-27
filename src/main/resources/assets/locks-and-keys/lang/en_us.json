@@ -1,0 +1,9 @@
+{
+	"item.locks-and-keys.elder_guardian_eye": "Elder Guardian Eye",
+	"item.locks-and-keys.elder_guardian_eye.tooltip": "Ripped straight from an elder guardian itself",
+	
+	"block.locks-and-keys.end_portal_lock": "End Portal Lock",
+	"block.locks-and-keys.end_portal_lock.wrong_item": "A boss item might work on this lock...",
+	"block.locks-and-keys.end_portal_lock.locked": "You attempt to create an end portal, but it is still locked.",
+	"block.locks-and-keys.end_portal_lock.item_already_filled": "That part of the key has already unlocked."
+}

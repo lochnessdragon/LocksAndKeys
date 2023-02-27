@@ -1,0 +1,19 @@
+{
+	"textures": {
+        "items": "locks-and-keys:block/end_portal_lock_items"
+	},
+	"elements": [
+		{
+            "name": "Pillager Banner",
+            "from": [ 6, 15.5, 2 ], 
+            "to": [ 9, 16.5, 6 ], 
+            "faces": {
+                "north": { "texture": "#items", "uv": [ 5, 0, 8, 1 ] },
+                "east": { "texture": "#items", "uv": [ 7, 0, 8, 4 ], "rotation": 90 },
+                "south": { "texture": "#items", "uv": [ 5, 3, 8, 4 ] },
+                "west": { "texture": "#items", "uv": [ 5, 0, 6, 4 ], "rotation": 270 },
+                "up": { "texture": "#items", "uv": [ 5, 0, 8, 4 ] }
+            }
+        }
+	]
+}

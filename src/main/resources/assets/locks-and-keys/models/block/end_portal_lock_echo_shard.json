@@ -1,0 +1,65 @@
+{
+	"textures": {
+		"items": "locks-and-keys:block/end_portal_lock_items"
+	},
+	"elements": [
+		{
+            "name": "Echo Shard A",
+            "from": [ 9, 15.5, 9 ], 
+            "to": [ 10, 16.5, 11 ], 
+            "faces": {
+                "north": { "texture": "#items", "uv": [ 7, 5, 8, 6 ] },
+                "south": { "texture": "#items", "uv": [ 7, 6, 8, 7 ] },
+                "west": { "texture": "#items", "uv": [ 7, 5, 8, 7 ] },
+                "up": { "texture": "#items", "uv": [ 7, 5, 8, 7 ] }
+            }
+        },
+        {
+            "name": "Echo Shard B",
+            "from": [ 10, 15.5, 9 ], 
+            "to": [ 11, 16.5, 12 ], 
+            "faces": {
+                "north": { "texture": "#items", "uv": [ 8, 5, 9, 6 ] },
+                "east": { "texture": "#items", "uv": [ 8, 5, 9, 8 ], "rotation": 90 },
+                "south": { "texture": "#items", "uv": [ 8, 7, 9, 8 ] },
+                "west": { "texture": "#items", "uv": [ 8, 5, 9, 8 ], "rotation": 270 },
+                "up": { "texture": "#items", "uv": [ 8, 5, 9, 8 ] }
+            }
+        },
+        {
+            "name": "Echo Shard C",
+            "from": [ 11, 15.5, 10 ], 
+            "to": [ 12, 16.5, 13 ], 
+            "faces": {
+                "north": { "texture": "#items", "uv": [ 8, 5, 9, 6 ] },
+                "east": { "texture": "#items", "uv": [ 9, 6, 10, 9 ], "rotation": 90 },
+                "south": { "texture": "#items", "uv": [ 8, 7, 9, 8 ] },
+                "west": { "texture": "#items", "uv": [ 9, 6, 10, 9 ], "rotation": 270 },
+                "up": { "texture": "#items", "uv": [ 9, 6, 10, 9 ] }
+            }
+        },
+        {
+            "name": "Echo Shard D",
+            "from": [ 12, 15.5, 11 ], 
+            "to": [ 13, 16.5, 14 ], 
+            "faces": {
+                "north": { "texture": "#items", "uv": [ 10, 7, 11, 8 ] },
+                "east": { "texture": "#items", "uv": [ 10, 7, 11, 10 ], "rotation": 270 },
+                "south": { "texture": "#items", "uv": [ 10, 9, 11, 10 ] },
+                "west": { "texture": "#items", "uv": [ 10, 7, 11, 10 ], "rotation": 270 },
+                "up": { "texture": "#items", "uv": [ 10, 7, 11, 10 ] }
+            }
+        },
+        {
+            "name": "Echo Shard E",
+            "from": [ 13, 15.5, 12 ], 
+            "to": [ 14, 16.5, 14 ], 
+            "faces": {
+                "north": { "texture": "#items", "uv": [ 11, 8, 12, 9 ] },
+                "east": { "texture": "#items", "uv": [ 10, 9, 12, 10 ] },
+                "south": { "texture": "#items", "uv": [ 11, 9, 12, 10 ] },
+                "up": { "texture": "#items", "uv": [ 11, 8, 12, 10 ] }
+            }
+        }
+    ]
+}

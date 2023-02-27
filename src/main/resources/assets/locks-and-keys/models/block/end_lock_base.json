@@ -1,0 +1,249 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "end_portal_lock_top": "locks-and-keys:block/end_portal_lock_top",
+        "end_portal_lock_items": "locks-and-keys:block/end_portal_lock_items"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Base",
+            "from": [ 0, 0, 0 ], 
+            "to": [ 16, 16, 16 ], 
+            "faces": {
+                "up": { "texture": "#end_portal_lock_top", "uv": [ 0, 0, 16, 16 ] }
+            }
+        },
+        {
+            "name": "Totem of Undying",
+            "from": [ 2, 15.6, 2 ], 
+            "to": [ 4, 16.6, 6 ], 
+            "faces": {
+                "north": { "texture": "#end_portal_lock_items", "uv": [ 1, 0, 3, 1 ] },
+                "east": { "texture": "#end_portal_lock_items", "uv": [ 2, 0, 3, 4 ], "rotation": 90 },
+                "south": { "texture": "#end_portal_lock_items", "uv": [ 1, 3, 3, 4 ] },
+                "west": { "texture": "#end_portal_lock_items", "uv": [ 1, 0, 2, 4 ], "rotation": 270 },
+                "up": { "texture": "#end_portal_lock_items", "uv": [ 1, 0, 3, 4 ] }
+            }
+        },
+        {
+            "name": "Totem of Undying LHand",
+            "from": [ 1, 15.5, 4 ], 
+            "to": [ 2, 16.5, 5 ], 
+            "faces": {
+                "north": { "texture": "#end_portal_lock_items", "uv": [ 0, 2, 1, 3 ] },
+                "east": { "texture": "#end_portal_lock_items", "uv": [ 0, 2, 1, 3 ] },
+                "south": { "texture": "#end_portal_lock_items", "uv": [ 0, 2, 1, 3 ] },
+                "west": { "texture": "#end_portal_lock_items", "uv": [ 0, 2, 1, 3 ] },
+                "up": { "texture": "#end_portal_lock_items", "uv": [ 0, 2, 1, 3 ] }
+            }
+        },
+        {
+            "name": "Totem of Undying RHand",
+            "from": [ 4, 15.5, 4 ], 
+            "to": [ 5, 16.5, 5 ], 
+            "faces": {
+                "north": { "texture": "#end_portal_lock_items", "uv": [ 3, 2, 4, 3 ] },
+                "east": { "texture": "#end_portal_lock_items", "uv": [ 3, 2, 4, 3 ] },
+                "south": { "texture": "#end_portal_lock_items", "uv": [ 3, 2, 4, 3 ] },
+                "west": { "texture": "#end_portal_lock_items", "uv": [ 3, 2, 4, 3 ] },
+                "up": { "texture": "#end_portal_lock_items", "uv": [ 3, 2, 4, 3 ] }
+            }
+        },
+        {
+            "name": "Pillager Banner",
+            "from": [ 6, 15.5, 2 ], 
+            "to": [ 9, 16.5, 6 ], 
+            "faces": {
+                "north": { "texture": "#end_portal_lock_items", "uv": [ 5, 0, 8, 1 ] },
+                "east": { "texture": "#end_portal_lock_items", "uv": [ 7, 0, 8, 4 ], "rotation": 90 },
+                "south": { "texture": "#end_portal_lock_items", "uv": [ 5, 3, 8, 4 ] },
+                "west": { "texture": "#end_portal_lock_items", "uv": [ 5, 0, 6, 4 ], "rotation": 270 },
+                "up": { "texture": "#end_portal_lock_items", "uv": [ 5, 0, 8, 4 ] }
+            }
+        },
+        {
+            "name": "Elder Guardian Eye",
+            "from": [ 11, 15.5, 2 ], 
+            "to": [ 14, 16.5, 6 ], 
+            "faces": {
+                "north": { "texture": "#end_portal_lock_items", "uv": [ 10, 0, 13, 1 ] },
+                "east": { "texture": "#end_portal_lock_items", "uv": [ 12, 0, 13, 4 ], "rotation": 90 },
+                "south": { "texture": "#end_portal_lock_items", "uv": [ 10, 3, 13, 4 ] },
+                "west": { "texture": "#end_portal_lock_items", "uv": [ 10, 0, 11, 4 ], "rotation": 90 },
+                "up": { "texture": "#end_portal_lock_items", "uv": [ 10, 0, 13, 4 ] }
+            }
+        },
+        {
+            "name": "Elder Guardian Eye L",
+            "from": [ 10, 15.5, 3 ], 
+            "to": [ 11, 16.5, 5 ], 
+            "faces": {
+                "north": { "texture": "#end_portal_lock_items", "uv": [ 9, 1, 10, 2 ] },
+                "south": { "texture": "#end_portal_lock_items", "uv": [ 9, 2, 10, 3 ] },
+                "west": { "texture": "#end_portal_lock_items", "uv": [ 9, 1, 10, 3 ] },
+                "up": { "texture": "#end_portal_lock_items", "uv": [ 9, 1, 10, 3 ] }
+            }
+        },
+        {
+            "name": "Elder Guardian Eye R",
+            "from": [ 14, 15.5, 3 ], 
+            "to": [ 15, 16.5, 5 ], 
+            "faces": {
+                "north": { "texture": "#end_portal_lock_items", "uv": [ 13, 1, 14, 2 ] },
+                "east": { "texture": "#end_portal_lock_items", "uv": [ 13, 1, 14, 3 ] },
+                "south": { "texture": "#end_portal_lock_items", "uv": [ 13, 2, 14, 3 ] },
+                "up": { "texture": "#end_portal_lock_items", "uv": [ 13, 1, 14, 3 ] }
+            }
+        },
+        {
+            "name": "Nether Star",
+            "from": [ 4, 15.6, 10 ], 
+            "to": [ 7, 16.6, 13 ], 
+            "faces": {
+                "north": { "texture": "#end_portal_lock_items", "uv": [ 1, 6, 4, 7 ] },
+                "east": { "texture": "#end_portal_lock_items", "uv": [ 3, 6, 4, 9 ], "rotation": 90 },
+                "south": { "texture": "#end_portal_lock_items", "uv": [ 1, 8, 4, 9 ] },
+                "west": { "texture": "#end_portal_lock_items", "uv": [ 1, 6, 2, 9 ], "rotation": 270 },
+                "up": { "texture": "#end_portal_lock_items", "uv": [ 1, 6, 4, 9 ] }
+            }
+        },
+        {
+            "name": "Nether Star L",
+            "from": [ 3, 15.5, 11 ], 
+            "to": [ 4, 16.5, 12 ], 
+            "faces": {
+                "north": { "texture": "#end_portal_lock_items", "uv": [ 0, 7, 1, 8 ] },
+                "east": { "texture": "#end_portal_lock_items", "uv": [ 0, 7, 1, 8 ] },
+                "south": { "texture": "#end_portal_lock_items", "uv": [ 0, 7, 1, 8 ] },
+                "west": { "texture": "#end_portal_lock_items", "uv": [ 0, 7, 1, 8 ] },
+                "up": { "texture": "#end_portal_lock_items", "uv": [ 0, 7, 1, 8 ] }
+            }
+        },
+        {
+            "name": "Nether Star R",
+            "from": [ 7, 15.5, 11 ], 
+            "to": [ 8, 16.5, 12 ], 
+            "faces": {
+                "north": { "texture": "#end_portal_lock_items", "uv": [ 4, 7, 5, 8 ] },
+                "east": { "texture": "#end_portal_lock_items", "uv": [ 4, 7, 5, 8 ] },
+                "south": { "texture": "#end_portal_lock_items", "uv": [ 4, 7, 5, 8 ] },
+                "west": { "texture": "#end_portal_lock_items", "uv": [ 4, 7, 5, 8 ] },
+                "up": { "texture": "#end_portal_lock_items", "uv": [ 4, 7, 5, 8 ] }
+            }
+        },
+        {
+            "name": "Nether Star T",
+            "from": [ 5, 15.5, 9 ], 
+            "to": [ 6, 16.5, 10 ], 
+            "faces": {
+                "north": { "texture": "#end_portal_lock_items", "uv": [ 2, 5, 3, 6 ] },
+                "east": { "texture": "#end_portal_lock_items", "uv": [ 2, 5, 3, 6 ] },
+                "south": { "texture": "#end_portal_lock_items", "uv": [ 2, 5, 3, 6 ] },
+                "west": { "texture": "#end_portal_lock_items", "uv": [ 2, 5, 3, 6 ] },
+                "up": { "texture": "#end_portal_lock_items", "uv": [ 2, 5, 3, 6 ] }
+            }
+        },
+        {
+            "name": "Nether Star B",
+            "from": [ 5, 15.5, 13 ], 
+            "to": [ 6, 16.5, 14 ], 
+            "faces": {
+                "north": { "texture": "#end_portal_lock_items", "uv": [ 2, 9, 3, 10 ] },
+                "east": { "texture": "#end_portal_lock_items", "uv": [ 2, 9, 3, 10 ] },
+                "south": { "texture": "#end_portal_lock_items", "uv": [ 2, 9, 3, 10 ] },
+                "west": { "texture": "#end_portal_lock_items", "uv": [ 2, 9, 3, 10 ] },
+                "up": { "texture": "#end_portal_lock_items", "uv": [ 2, 9, 3, 10 ] }
+            }
+        },
+        {
+            "name": "Echo Shard A",
+            "from": [ 9, 15.5, 9 ], 
+            "to": [ 10, 16.5, 11 ], 
+            "faces": {
+                "north": { "texture": "#end_portal_lock_items", "uv": [ 7, 5, 8, 6 ] },
+                "south": { "texture": "#end_portal_lock_items", "uv": [ 7, 6, 8, 7 ] },
+                "west": { "texture": "#end_portal_lock_items", "uv": [ 7, 5, 8, 7 ] },
+                "up": { "texture": "#end_portal_lock_items", "uv": [ 7, 5, 8, 7 ] }
+            }
+        },
+        {
+            "name": "Echo Shard B",
+            "from": [ 10, 15.5, 9 ], 
+            "to": [ 11, 16.5, 12 ], 
+            "faces": {
+                "north": { "texture": "#end_portal_lock_items", "uv": [ 8, 5, 9, 6 ] },
+                "east": { "texture": "#end_portal_lock_items", "uv": [ 8, 5, 9, 8 ], "rotation": 90 },
+                "south": { "texture": "#end_portal_lock_items", "uv": [ 8, 7, 9, 8 ] },
+                "west": { "texture": "#end_portal_lock_items", "uv": [ 8, 5, 9, 8 ], "rotation": 270 },
+                "up": { "texture": "#end_portal_lock_items", "uv": [ 8, 5, 9, 8 ] }
+            }
+        },
+        {
+            "name": "Echo Shard C",
+            "from": [ 11, 15.5, 10 ], 
+            "to": [ 12, 16.5, 13 ], 
+            "faces": {
+                "north": { "texture": "#end_portal_lock_items", "uv": [ 8, 5, 9, 6 ] },
+                "east": { "texture": "#end_portal_lock_items", "uv": [ 9, 6, 10, 9 ], "rotation": 90 },
+                "south": { "texture": "#end_portal_lock_items", "uv": [ 8, 7, 9, 8 ] },
+                "west": { "texture": "#end_portal_lock_items", "uv": [ 9, 6, 10, 9 ], "rotation": 270 },
+                "up": { "texture": "#end_portal_lock_items", "uv": [ 9, 6, 10, 9 ] }
+            }
+        },
+        {
+            "name": "Echo Shard D",
+            "from": [ 12, 15.5, 11 ], 
+            "to": [ 13, 16.5, 14 ], 
+            "faces": {
+                "north": { "texture": "#end_portal_lock_items", "uv": [ 10, 7, 11, 8 ] },
+                "east": { "texture": "#end_portal_lock_items", "uv": [ 10, 7, 11, 10 ], "rotation": 270 },
+                "south": { "texture": "#end_portal_lock_items", "uv": [ 10, 9, 11, 10 ] },
+                "west": { "texture": "#end_portal_lock_items", "uv": [ 10, 7, 11, 10 ], "rotation": 270 },
+                "up": { "texture": "#end_portal_lock_items", "uv": [ 10, 7, 11, 10 ] }
+            }
+        },
+        {
+            "name": "Echo Shard E",
+            "from": [ 13, 15.5, 12 ], 
+            "to": [ 14, 16.5, 14 ], 
+            "faces": {
+                "north": { "texture": "#end_portal_lock_items", "uv": [ 11, 8, 12, 9 ] },
+                "east": { "texture": "#end_portal_lock_items", "uv": [ 10, 9, 12, 10 ] },
+                "south": { "texture": "#end_portal_lock_items", "uv": [ 11, 9, 12, 10 ] },
+                "up": { "texture": "#end_portal_lock_items", "uv": [ 11, 8, 12, 10 ] }
+            }
+        }
+    ]
+}

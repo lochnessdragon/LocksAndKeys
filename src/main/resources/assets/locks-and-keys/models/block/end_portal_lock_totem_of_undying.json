@@ -1,0 +1,43 @@
+{
+	"textures": {
+		"items": "locks-and-keys:block/end_portal_lock_items"
+	},
+	"elements": [
+		{
+            "name": "Totem of Undying",
+            "from": [ 2, 15.6, 2 ], 
+            "to": [ 4, 16.6, 6 ], 
+            "faces": {
+                "north": { "texture": "#items", "uv": [ 1, 0, 3, 1 ] },
+                "east": { "texture": "#items", "uv": [ 2, 0, 3, 4 ], "rotation": 90 },
+                "south": { "texture": "#items", "uv": [ 1, 3, 3, 4 ] },
+                "west": { "texture": "#items", "uv": [ 1, 0, 2, 4 ], "rotation": 270 },
+                "up": { "texture": "#items", "uv": [ 1, 0, 3, 4 ] }
+            }
+        },
+        {
+            "name": "Totem of Undying LHand",
+            "from": [ 1, 15.5, 4 ], 
+            "to": [ 2, 16.5, 5 ], 
+            "faces": {
+                "north": { "texture": "#items", "uv": [ 0, 2, 1, 3 ] },
+                "east": { "texture": "#items", "uv": [ 0, 2, 1, 3 ] },
+                "south": { "texture": "#items", "uv": [ 0, 2, 1, 3 ] },
+                "west": { "texture": "#items", "uv": [ 0, 2, 1, 3 ] },
+                "up": { "texture": "#items", "uv": [ 0, 2, 1, 3 ] }
+            }
+        },
+        {
+            "name": "Totem of Undying RHand",
+            "from": [ 4, 15.5, 4 ], 
+            "to": [ 5, 16.5, 5 ], 
+            "faces": {
+                "north": { "texture": "#items", "uv": [ 3, 2, 4, 3 ] },
+                "east": { "texture": "#items", "uv": [ 3, 2, 4, 3 ] },
+                "south": { "texture": "#items", "uv": [ 3, 2, 4, 3 ] },
+                "west": { "texture": "#items", "uv": [ 3, 2, 4, 3 ] },
+                "up": { "texture": "#items", "uv": [ 3, 2, 4, 3 ] }
+            }
+        }
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"textures": {
+		"items": "locks-and-keys:block/end_portal_lock_items"
+	},
+	"elements": [
+		{
+            "name": "Elder Guardian Eye",
+            "from": [ 11, 15.5, 2 ], 
+            "to": [ 14, 16.5, 6 ], 
+            "faces": {
+                "north": { "texture": "#items", "uv": [ 10, 0, 13, 1 ] },
+                "east": { "texture": "#items", "uv": [ 12, 0, 13, 4 ], "rotation": 90 },
+                "south": { "texture": "#items", "uv": [ 10, 3, 13, 4 ] },
+                "west": { "texture": "#items", "uv": [ 10, 0, 11, 4 ], "rotation": 90 },
+                "up": { "texture": "#items", "uv": [ 10, 0, 13, 4 ] }
+            }
+        },
+        {
+            "name": "Elder Guardian Eye L",
+            "from": [ 10, 15.5, 3 ], 
+            "to": [ 11, 16.5, 5 ], 
+            "faces": {
+                "north": { "texture": "#items", "uv": [ 9, 1, 10, 2 ] },
+                "south": { "texture": "#items", "uv": [ 9, 2, 10, 3 ] },
+                "west": { "texture": "#items", "uv": [ 9, 1, 10, 3 ] },
+                "up": { "texture": "#items", "uv": [ 9, 1, 10, 3 ] }
+            }
+        },
+        {
+            "name": "Elder Guardian Eye R",
+            "from": [ 14, 15.5, 3 ], 
+            "to": [ 15, 16.5, 5 ], 
+            "faces": {
+                "north": { "texture": "#items", "uv": [ 13, 1, 14, 2 ] },
+                "east": { "texture": "#items", "uv": [ 13, 1, 14, 3 ] },
+                "south": { "texture": "#items", "uv": [ 13, 2, 14, 3 ] },
+                "up": { "texture": "#items", "uv": [ 13, 1, 14, 3 ] }
+            }
+        }
+	]
+}
