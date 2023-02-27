@@ -2,12 +2,15 @@
   "multipart": [
     {
       "apply": {
-        "model": "locks-and-keys:block/end_portal_lock"
+        "model": "locks-and-keys:block/end_portal_lock",
+        "y": 90
       }
     },
     {
       "apply": {
-        "model": "locks-and-keys:block/end_portal_lock_nether_star"
+        "model": "locks-and-keys:block/end_portal_lock_nether_star",
+        "y": 90,
+        "uvlock": true
       },
       "when": {
         "has_nether_star": "true"
@@ -15,7 +18,9 @@
     },
     {
       "apply": {
-        "model": "locks-and-keys:block/end_portal_lock_elder_guardian_eye"
+        "model": "locks-and-keys:block/end_portal_lock_elder_guardian_eye",
+        "y": 90,
+        "uvlock": true
       },
       "when": {
         "has_elder_guardian_eye": "true"
@@ -23,7 +28,9 @@
     },
     {
       "apply": {
-        "model": "locks-and-keys:block/end_portal_lock_echo_shard"
+        "model": "locks-and-keys:block/end_portal_lock_echo_shard",
+        "y": 90,
+        "uvlock": true
       },
       "when": {
         "has_echo_shard": "true"
@@ -31,7 +38,9 @@
     },
     {
       "apply": {
-        "model": "locks-and-keys:block/end_portal_lock_pillager_banner"
+        "model": "locks-and-keys:block/end_portal_lock_pillager_banner",
+        "y": 90,
+        "uvlock": true
       },
       "when": {
         "has_pillager_banner": "true"
@@ -39,7 +48,9 @@
     },
     {
       "apply": {
-        "model": "locks-and-keys:block/end_portal_lock_totem_of_undying"
+        "model": "locks-and-keys:block/end_portal_lock_totem_of_undying",
+        "y": 90,
+        "uvlock": true
       },
       "when": {
         "has_totem_of_undying": "true"
